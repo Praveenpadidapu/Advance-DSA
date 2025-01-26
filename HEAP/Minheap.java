@@ -93,7 +93,7 @@ public class Minimumheap
         {
             mh.insert(i);
         }
-        System.out.println("current max :"+mh.getmin());
+        System.out.println("current min :"+mh.getmin());
         System.out.println("current size :"+mh.currentsize());
         mh.insert(6);
         System.out.println("current size :"+mh.currentsize());
